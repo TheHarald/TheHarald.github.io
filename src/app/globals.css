@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--general-30);
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+
+  /* Spaces */
+  --space-0: 0px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-2-5: 48px;
+  --space-3: 32px;
+  --space-4: 64px;
+  --space-5: 128px;
+  --space-6: 256px;
+  --border-width: 1px;
+
+  /* FontSizes */
+  /* --h1:  */
+
+  /* Colors */
+  --white: #FFF;
+  --general-50: #D7DBEC;
+  --general-90: #333752;
+  --primary-90: #336DFF;
+  --general-60: #A1A7C4;
+  --general-70: #7E84A3;
+  --general-30: #F5F6FA;
+
+}
+
+
