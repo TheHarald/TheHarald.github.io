@@ -1,8 +1,9 @@
 import { Header } from "@/components/header/header";
 import style from "./page.module.css";
 import { About } from "@/sections/about/about";
-import { SkillCard } from "@/components/skill-card/skill-card";
-import { SkillsScetion } from "@/sections/skills-section/skills-section";
+import { SkillsScetion } from "@/sections/skills/skills-section";
+import { ExperienceSection } from "@/sections/experience/experience-section";
+import { ContactsSection } from "@/sections/contacts/contacts-sction";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Header />
       <About />
       <SkillsScetion />
+      <ExperienceSection />
+      <ContactsSection />
     </main>
   );
 }

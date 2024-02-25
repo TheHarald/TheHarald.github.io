@@ -13,9 +13,11 @@ body{
 :root {
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  font-style: normal;
 
   /* Spaces */
   --space-0: 0px;
+  --space-0-5:4px;
   --space-1: 8px;
   --space-2: 16px;
   --space-2-5: 48px;
@@ -32,10 +34,12 @@ body{
   --white: #FFF;
   --general-50: #D7DBEC;
   --general-90: #333752;
+  --general-80: #5A607F;
   --primary-90: #336DFF;
   --general-60: #A1A7C4;
   --general-70: #7E84A3;
   --general-30: #F5F6FA;
+  --general-40: #E6E9F4;
 
 }
 

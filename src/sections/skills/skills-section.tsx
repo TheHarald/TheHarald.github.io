@@ -6,9 +6,7 @@ export function SkillsScetion() {
   const { skills, title } = portfolioData.skilsSection;
   return (
     <section className={styles.skillsSection}>
-      <header>
-        <h1 className={styles.headerTitle}>{title}</h1>
-      </header>
+      <h1 className={styles.headerTitle}>{title}</h1>
       <div className={styles.skills}>
         {skills.map((skill, i) => {
           return (

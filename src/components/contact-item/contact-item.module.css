@@ -1,0 +1,64 @@
+.cantactItem{
+    display: flex;
+    flex-direction: row;
+    padding: var(--space-1) var(--space-2);
+    gap: var(--space-2);
+    align-items: center;
+    background: var(--white);
+    border-radius: var(--space-1);
+    border: var(--general-50) solid var(--border-width);
+    width: 100%;
+}
+
+.contactItemDot{
+    display: inline-block;
+    width: var(--space-1);
+    height: var(--space-1);
+    background: var(--general-40);
+    border-radius: 100%;
+}
+
+.contactInfoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-1);
+    align-items: center;
+}
+
+.contactValue{
+    color: var(--general-60);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contactTitle{
+    color: var(--general-90);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contactLink{
+    margin-left: auto;
+}
+.icon{
+    transition: 0.5s;
+    border-radius: var(--space-0-5);
+}
+
+.icon:hover{
+    cursor: pointer;
+    background: var(--general-30);
+    transition: 0.5s;
+}
+
+.button{
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    
+}

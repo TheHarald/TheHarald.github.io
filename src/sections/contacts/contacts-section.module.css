@@ -1,0 +1,21 @@
+.contactsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.headerTitle{
+    color: var(--general-90);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contactItems{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}

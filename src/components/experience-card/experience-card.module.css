@@ -1,0 +1,86 @@
+
+.companyTitle{
+    color: var(--general-90);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.jobTitle{
+    color: var(--general-70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.companyInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-0-5);
+}
+
+.experienceCard{
+    display: flex;
+    width: 100%;
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--space-1);
+    border: var(--border-width) solid var(--general-50);
+    background: var(--white);
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--space-2);
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-1);
+    align-items: center;
+}
+
+.workingTimeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-0-5);
+}
+
+.workingTimeTitle{
+    color: var(--general-80);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+.tasksList{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-1) var(--space-2)
+}
+.taskListDot{
+    display: inline-block;
+    width: var(--space-1);
+    height: var(--space-1);
+    background: var(--general-40);
+    border-radius: 100%;
+}
+
+.taskListItem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-1);
+    align-items: center;
+}
+.taskListItemText{
+    width: 100%;
+    color: var(--general-90);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
